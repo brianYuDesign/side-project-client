@@ -1,0 +1,13 @@
+.toggle-block {
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
+  width: 100%;
+
+  &.show {
+    max-height: 100em !important;
+  }
+
+  &.hidden {
+    max-height: 0em !important;
+  }
+}
